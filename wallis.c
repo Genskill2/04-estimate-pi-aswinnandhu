@@ -28,7 +28,7 @@ float wallis_pi(int n)
 {
  float product;
  product=2.0;
- int i;
+ int i,j;
  for(i=1;i<n+1;i++)
  {
   product=(product*4*i*i)/(4*i*i-1);
