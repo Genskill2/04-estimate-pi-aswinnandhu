@@ -4,7 +4,25 @@
 #include <math.h>
 
 float mc_pi(int);
-
+float mc_pi(int n)
+{
+ int count=0;
+ int i;
+ float pi;
+ float x;
+ float y;
+ float distance_sq;
+ for(i=0;i<n;i++)
+ {
+  x=frandom();
+  y=frandom();
+  distance_sq=x*x + y*y;
+  if distace_sq <=1.000000000;
+    count+=1;
+ }
+ pi=4*count/n;
+ return pi;
+}
 float frandom() {
   long int q = random();
   float ret = (float)q/(float)RAND_MAX;
