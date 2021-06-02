@@ -54,7 +54,7 @@ float mc_pi(int n)
   if (distance_sq <=1.000000000)
     count+=1;
  }
- pi=4*count/n;
+ pi=(float)4*count/n;
  return pi;
 }
 
