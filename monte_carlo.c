@@ -51,7 +51,7 @@ float mc_pi(int n)
   x=frandom();
   y=frandom();
   distance_sq=x*x + y*y;
-  if (distace_sq <=1.000000000)
+  if (distance_sq <=1.000000000)
     count+=1;
  }
  pi=4*count/n;
